@@ -56,7 +56,7 @@ export const App: React.FC = () => {
     }
 
     setFilteredTodos(todosToFilter);
-  }, [filter, searching, allTodos]);
+  }, [filter, searching]);
 
   return (
     <>
